@@ -5,9 +5,7 @@ The "To-Do List" application is a simple yet functional task list that allows us
 ![](https://github.com/gif)
 
 ## Demo
-
-https
-
+https://malwinaprutis.github.io/todo-list-react/
 ## Technologies
 
   - HTML
