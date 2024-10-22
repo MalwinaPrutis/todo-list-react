@@ -2,7 +2,7 @@
 The "To-Do List" application is a simple yet functional task list that allows users to create, edit, and delete tasks to manage daily activities. This project aims to help users organize their time and increase productivity.
 ![App Screenshot](public/images/to-do-list-image-for-readme.png)
 
-![](https://github.com/gif)
+![App GIF](public/images/To do list.gif)
 
 ## Demo
 https://malwinaprutis.github.io/todo-list-react/
