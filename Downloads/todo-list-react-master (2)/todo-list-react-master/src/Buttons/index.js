@@ -1,21 +1,27 @@
-import { Wrapper, Button } from "./styled.js";
+import React from "react";
+import { Container, Selectors } from "./styled.js";
 
-const ButtonComponent = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
-  <Wrapper>
+const Buttons = ({
+  tasks,
+  hideCompletedTasks,
+  toggleHideCompleted,
+  setAllCompleted,
+}) => (
+  <Container>
     {tasks.length > 0 && (
       <>
-        <Button onClick={toggleHideDone}>
-          {hideDone ? "Pokaż ukończone" : "Ukryj ukończone"}
-        </Button>
-        <Button
-          onClick={setAllDone}
-          disabled={tasks.every(({ done }) => done)}
+        <Selectors onClick={toggleHideCompleted}>
+          {hideCompletedTasks ? "Pokaż" : "Ukryj"} ukończone
+        </Selectors>
+        <Selectors
+          onClick={setAllCompleted}
+          disabled={tasks.every(({ completed }) => completed)}
         >
           Ukończ wszystkie
-        </Button>
+        </Selectors>
       </>
     )}
-  </Wrapper>
+  </Container>
 );
 
-export default ButtonComponent;
+export default Buttons;

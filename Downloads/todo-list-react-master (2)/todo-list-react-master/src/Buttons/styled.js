@@ -1,26 +1,36 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Wrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+export const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 `;
 
-export const Button = styled.button`
-    @media (max-width: 767px) {
-        flex-basis: 100%;
-    }
+export const Selectors = styled.button`
+  background-color: transparent;
+  border: none;
+  color: ${({theme})=>theme.colors.primary};
+  margin-left: 10px;
 
-    color: teal;
-    border: none;
-    background-color: white;
-    background: ${({ theme }) => theme.color.teal};
-    font-size: 18px;
-    padding: 20px;
-    margin: 10px; /* Zmiana marginesu dla lepszego wyglądu */
-    transition: 1s;
+  @media (max-width:  ${({theme}) => theme.breakpoints.mobile}px) {
+    margin: 10px;
+    flex-basis: 100%;
+  }
 
-    &:hover {
-        background-color: hsl(180, 100%, 90%); /* Przyklad efektu hover */
-    }
+  &:hover {
+    color: ${({theme})=>theme.colors.buttonSubmitHover};
+  }
+
+  &:active {
+    color: ${({theme})=>theme.colors.buttonSubmitActive};
+  }
+
+  &:disabled {
+    color: ${({theme})=>theme.colors.buttonDisabled};
+  }
+
+  ${({ isHidden }) =>
+    isHidden &&
+    css`
+      visibility: hidden;
+    `}
 `;
