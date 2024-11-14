@@ -1,8 +1,11 @@
-import React from "react";
-import "./styled.js";
+import styled from "styled-components";
 
-const Container = ({ children }) => (
-  <main className="todoContainer">{children}</main>
-);
+export const Container = styled.main`
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 
-export default Container;
+  @media (max-width: 767px) {
+    padding: 15px;
+  }
+`;
