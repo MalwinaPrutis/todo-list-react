@@ -1,0 +1,90 @@
+[33mcommit 4bb109df9ae541bd879a1c5e849c149a0deb7a16[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Mon Nov 18 17:08:34 2024 +0100
+
+    Delete Downloads/todo-list-react-master (2)/todo-list-react-master directory
+
+[33mcommit 915b725dd391a8584d20d289fcf735a914074b27[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 21:47:57 2024 +0100
+
+    Zmieniono nazwę folderów
+
+[33mcommit fa50311eca7bdb37fc8b4ecac77784c84dd75906[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 21:30:39 2024 +0100
+
+    buttons update
+
+[33mcommit 19903347a5bccaf39824c44cecead932fe15e67f[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 20:51:19 2024 +0100
+
+    Zmieniono nazwę folderów
+
+[33mcommit bb283bc340014af7d791d00feeae71a6a40ef750[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 20:28:54 2024 +0100
+
+    Zmieniono nazwę folderów
+
+[33mcommit 5fcc6d33a4e4e996c027ab7d0369c0ff52e45aef[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 19:59:48 2024 +0100
+
+    Delete Downloads/todo-list-react-master (1)/todo-list-react-master directory
+
+[33mcommit d3c588953831d9a1c3adc1b8a31160889a389480[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 19:58:20 2024 +0100
+
+    Delete Downloads/todo-list-react-master (3)/todo-list-react-master directory
+
+[33mcommit 0433a09a734e7510a897163af74bee0cfc5c708c[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 19:54:37 2024 +0100
+
+    Delete Downloads/to-do-list-master-2-modul-7-master/to-do-list-master-2-modul-7-master directory
+
+[33mcommit 5f0c06bef52c54f55ed1fe36532918b2b8551508[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 19:31:26 2024 +0100
+
+    Rozwiązane konflikty po pull
+
+[33mcommit e287a3fce56004ea783cd2e52f5cb4a01a8b36e3[m
+Merge: 5e4755a e54f4b2
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 17:22:37 2024 +0100
+
+    Zakończenie procesu scalania
+
+[33mcommit 5e4755ac9c822163aa817d113d5d8ab64e38efcb[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Thu Nov 14 17:09:22 2024 +0100
+
+    Opis wprowadzonych zmian
+
+[33mcommit e54f4b26737d9a0b90bc1ebb7d53fc59ab3b4fca[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Tue Nov 12 20:23:51 2024 +0100
+
+    code update
+
+[33mcommit 8b8313550aeebc0a90b269eefaa46bbd22328b65[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Sun Nov 3 10:13:55 2024 +0100
+
+    package.json new version added
+
+[33mcommit ae5e6ab57bbc8e82be56169e64ad65ec05661a3d[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Tue Oct 22 15:27:05 2024 +0200
+
+    New style.css added
+
+[33mcommit 41629c70c52952eb45eb1c788174dcf56fa07df4[m
+Author: Malwina Prutis <prutis@vp.pl>
+Date:   Fri Oct 4 22:42:44 2024 +0200
+
+    first commit
